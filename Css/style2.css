@@ -1,0 +1,88 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html,
+body {
+    height: 100%;
+}
+
+body {
+    background-image: url(../imagem/baquião.png);
+    background-repeat: no-repeat;
+    background-position: center top;
+    color: rgb(0, 0, 0);
+    background-color: rgb(66, 57, 38);
+}
+
+form {
+    width: 460px;
+    margin: 170px auto;
+    background-color: rgba(255, 255, 255, 0.057);
+    border-radius: 10px;
+    border: 6px double black;
+}
+
+form fieldset {
+    text-align: center;
+    border-radius: 20px;
+    height: auto;
+    padding-bottom: 40px;
+    border: 0;
+}
+
+form fieldset h1 {
+    text-align: center;
+    margin: 7% 10%;
+    font-size: 47px;
+    font-style: oblique;
+}
+
+form .email>input,
+.senha>input,
+.usuario>input,
+.telefone>input {
+    width: 80%;
+    height: 40px;
+    border: 2px solid rgba(0, 0, 0, 0.612);
+    border-radius: 100px;
+    margin-bottom: 10px;
+    background-color: rgba(220, 220, 220, 0.087);
+    outline-color: transparent;
+    font-size: 22px;
+    padding-left: 10px;
+    color: rgb(0, 0, 0);
+    outline: none;
+}
+
+form .criar>input {
+    color: rgb(0, 0, 0);
+    width: 40%;
+    height: 40px;
+    border: 2px solid rgba(0, 0, 0, 0.612);
+    border-radius: 100px;
+    font-size: 22px;
+    background-color: rgb(66, 57, 38);
+    margin: 30px 0;
+    cursor: pointer;
+}
+
+a {
+    color: rgb(0, 0, 0);
+}
+
+form fieldset label>h4 {
+    text-align: left;
+    margin-left: 15%;
+    margin-bottom: 5px;
+}
+
+#email::placeholder,
+#password::placeholder,
+#fone::placeholder,
+#user::placeholder {
+    font-size: 14px;
+    padding: 0 10px;
+    color: rgba(0, 0, 0, 0.683);
+}
