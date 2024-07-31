@@ -17,40 +17,38 @@
 </head>
 
 <body>
-    <form action="">
+    <form>
         <fieldset>
             <h1>Inscrever-se</h1>
 
             <label for="user">
-                <h4>Usuário</h4>
+                <h4>Usuário*</h4>
             </label>
-            <div class="usuario"><input type="text" id="user" name="usuario" placeholder="Usuário"></div><!--usuario-->
+            <div class="usuario"><input type="text" id="user" name="usuario" placeholder="Usuário" required></div><!--usuario-->
 
             <label for="fone">
-                <h4>Telefone</h4>
+                <h4>Telefone*</h4>
             </label>
-            <div class="telefone"><input type="tel" id="fone" name="telefone" placeholder="Telefone"></div>
+            <div class="telefone"><input type="tel" id="fone" name="telefone" placeholder="Telefone" required></div>
             <!--telefone-->
 
             <label for="email">
-                <h4>E-mail</h4>
+                <h4>E-mail*</h4>
             </label>
-            <div class="email"><input type="email" id="email" name="email" placeholder="E-mail"></div><!--email-->
+            <div class="email"><input type="email" id="email" name="email" placeholder="E-mail" required></div><!--email-->
 
             <label for="password">
-                <h4>Senha</h4>
+                <h4>Senha*</h4>
             </label>
-            <div class="senha"><input type="password" id="password" name="senha" placeholder=" Senha"></div><!--senha-->
+            <div class="senha"><input type="password" id="password" name="senha" placeholder=" Senha" required></div ><!--senha-->
 
             <div class="criar"><input type="submit" value="Criar"></div><!--entrar-->
-
 
             <span>Já tem uma conta?</span>
             <a href="index.html">Faça seu login aqui</a>
 
         </fieldset>
     </form>
-
 </body>
 
 </html>
